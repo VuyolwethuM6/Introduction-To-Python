@@ -58,81 +58,82 @@ Python finds applications in a wide range of fields, including:
 
 ## Data Types
 
-## 1. Numeric Types
+In Python, data types categorize the kinds of values a program can manipulate. The language supports various types, including numeric types like integers, floating-point numbers, and complex numbers, as well as text types like strings. Sequence types encompass ordered collections, such as lists and tuples, with the former being mutable and the latter immutable. Dictionaries serve as a mapping type, allowing the storage of key-value pairs. The boolean type handles truth values with True and False, while the None type represents the absence of a value. Python's flexibility in handling diverse data types contributes to its readability and ease of use, making it a versatile language for a wide range of applications.
 
-### Integers (`int`)
+### 1. Numeric Types
+
+#### Integers (`int`)
 
 Whole numbers without decimal points.
 ```python
 x = 5
 ```
 
-### Floating-Point Numbers (`float`)
+#### Floating-Point Numbers (`float`)
 
 Numbers with decimal points.
 ```python
 y = 3.14
 ```
 
-### Complex Numbers (`complex`)
+#### Complex Numbers (`complex`)
 
 Numbers with real and imaginary parts.
 ```python
 z = 2 + 3j
 ```
 
-## 2. Text Type
+### 2. Text Type
 
-### Strings (`str`)
+#### Strings (`str`)
 
 Ordered sequences of characters.
 ```python
 message = "Hello, Python!"
 ```
 
-## 3. Sequence Types
+### 3. Sequence Types
 
-### Lists (`list`)
+#### Lists (`list`)
 
 Ordered, mutable collections.
 ```python
 numbers = [1, 2, 3, 4, 5]
 ```
 
-### Tuples (`tuple`)
+#### Tuples (`tuple`)
 
 Ordered, immutable collections.
 ```python
 coordinates = (3, 5)
 ```
 
-## 4. Mapping Type
+### 4. Mapping Type
 
-### Dictionaries (`dict`)
+#### Dictionaries (`dict`)
 
 Unordered key-value pairs.
 ```python
 student = {"name": "Alice", "age": 25, "grade": "A"}
 ```
 
-## 5. Boolean Type
+### 5. Boolean Type
 
-### Boolean (`bool`)
+#### Boolean (`bool`)
 
 Represents truth values `True` or `False`.
 ```python
 is_python_fun = True
 ```
 
-## None Type
+### None Type
 
-### None (`NoneType`)
+#### None (`NoneType`)
 
 Represents the absence of a value or a null value.
 ```python
 empty_variable = None
 ```
-
 
 ## Operators
 
