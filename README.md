@@ -444,7 +444,6 @@ In Python, a module is a file containing Python definitions and statements. Thes
      ```python
      # __init__.py can be an empty file or can include initialization code for the package
      ```
-
 Modules in Python allows for better code organization, reusability, and the ability to leverage external functionality through imports.
 
 ## Regular Expressions
