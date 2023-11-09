@@ -134,8 +134,58 @@ Represents the absence of a value or a null value.
 ```python
 empty_variable = None
 ```
-
 ## Operators
+In Python, operators are symbols or keywords that perform operations on variables and values. Key categories include:
+
+1. **Arithmetic Operators:**
+   - Addition `+`
+   - Subtraction `-`
+   - Multiplication `*`
+   - Division `/`
+   - Modulus `%` (remainder)
+   - Exponentiation `**`
+   - Floor Division `//` (integer division)
+
+2. **Comparison Operators:**
+   - Equal to `==`
+   - Not equal to `!=`
+   - Greater than `>`
+   - Less than `<`
+   - Greater than or equal to `>=`
+   - Less than or equal to `<=`
+
+3. **Logical Operators:**
+   - Logical AND `and`
+   - Logical OR `or`
+   - Logical NOT `not`
+
+4. **Assignment Operators:**
+   - Assignment `=`
+   - Add and assign `+=`
+   - Subtract and assign `-=`
+   - Multiply and assign `*=`
+   - Divide and assign `/=`
+   - Modulus and assign `%=`
+   - Exponentiate and assign `**=`
+   - Floor divide and assign `//=`
+
+5. **Identity Operators:**
+   - Identity equal `is`
+   - Identity not equal `is not`
+
+6. **Membership Operators:**
+   - In `in` (checks if a value exists in a sequence)
+   - Not in `not in` (checks if a value does not exist in a sequence)
+
+7. **Bitwise Operators:**
+   - Bitwise AND `&`
+   - Bitwise OR `|`
+   - Bitwise XOR `^`
+   - Bitwise NOT `~`
+   - Left shift `<<`
+   - Right shift `>>`
+   
+These operators are essential for performing a variety of operations in Python, from basic arithmetic to complex logical and bitwise manipulations.
 
 # Control Flow in Python
 
