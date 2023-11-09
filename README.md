@@ -23,7 +23,38 @@ Python finds applications in a wide range of fields, including:
 
 - **Artificial Intelligence:** With libraries like TensorFlow and PyTorch, Python is at the forefront of AI and deep learning research.
 
-## Getting Started
+## Basics
+
+- **Indentation:** Crucial for defining code blocks.
+- **Variables:** Dynamically typed; no need for explicit declarations.
+- **Print Statement:** Use `print()` for console output.
+
+## Data Types
+
+- **Strings:** Declare with single or double quotes.
+- **Lists:** Ordered, mutable collections in square brackets.
+- **Tuples:** Immutable collections in parentheses.
+- **Dictionaries:** Unordered key-value pairs in curly braces.
+
+## Control Flow
+
+- **Conditional Statements:** Use `if`, `elif`, `else`.
+- **Loops:** `for` and `while` loops available.
+
+## Functions
+
+- **Function Definition:** Use `def` keyword.
+- **Parameters:** Passed in parentheses.
+
+## Exception Handling
+
+- Use `try`, `except`, `finally` for error handling.
+
+## Object-Oriented
+
+- Define classes with `class` keyword.
+- Create objects (instances) from classes.
+
 ## Python Syntax
 
 ## Data Types
