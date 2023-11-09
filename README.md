@@ -189,6 +189,82 @@ These operators are essential for performing a variety of operations in Python, 
 
 # Control Flow in Python
 
+Control flow in Python refers to the order in which statements are executed in a program. Key control flow structures include conditional statements and loops. Here's an overview with code snippets focusing on key points:
+
+1. **Conditional Statements:**
+   - **if Statement:**
+     ```python
+     age = 20
+     if age >= 18:
+         print("You are an adult.")
+     else:
+         print("You are a minor.")
+     ```
+   - **elif Statement:**
+     ```python
+     score = 75
+     if score >= 90:
+         print("Excellent!")
+     elif score >= 70:
+         print("Good job!")
+     else:
+         print("Work harder.")
+     ```
+
+2. **Loops:**
+   - **for Loop:**
+     ```python
+     numbers = [1, 2, 3, 4, 5]
+     for num in numbers:
+         print(num)
+     ```
+   - **while Loop:**
+     ```python
+     count = 0
+     while count < 5:
+         print(count)
+         count += 1
+     ```
+
+3. **Break and Continue:**
+   - **break Statement:**
+     ```python
+     numbers = [1, 2, 3, 4, 5]
+     for num in numbers:
+         if num == 4:
+             break
+         print(num)
+     ```
+   - **continue Statement:**
+     ```python
+     numbers = [1, 2, 3, 4, 5]
+     for num in numbers:
+         if num == 3:
+             continue
+         print(num)
+     ```
+
+4. **Try and Except (Exception Handling):**
+   ```python
+   try:
+       result = 10 / 0
+   except ZeroDivisionError:
+       print("Cannot divide by zero.")
+   else:
+       print(result)
+   finally:
+       print("Execution complete.")
+   ```
+
+5. **Ternary Operator:**
+   ```python
+   age = 20
+   status = "Adult" if age >= 18 else "Minor"
+   print(status)
+   ```
+
+These control flow structures enables the creation of dynamic and responsive programs in Python, allowing developers to execute specific blocks of code based on conditions and iterate through sequences efficiently.
+
 ## Python Functions
 
 ## Introduction to Modules
