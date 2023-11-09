@@ -448,6 +448,81 @@ Modules in Python allows for better code organization, reusability, and the abil
 
 ## Regular Expressions
 
+In Python, regular expressions, often denoted as regex, serve as a robust mechanism for pattern matching and string manipulation. Leveraging the `re` module, these expressions allow developers to define intricate search patterns, enabling tasks such as locating specific sequences of characters, validating data formats, and extracting information from strings. Regular expressions consist of a combination of special characters and symbols that form rules for matching patterns, providing a concise and powerful means for text processing. Whether validating user input, parsing data, or searching for specific substrings, regular expressions enhance Python's capabilities in handling and manipulating textual data.
+
+1. **Importing the `re` Module:**
+   - Import the `re` module to work with regular expressions.
+   - Example:
+     ```python
+     import re
+     ```
+
+2. **Basic Patterns:**
+   - Regular expressions consist of patterns that define search criteria.
+   - Example:
+     ```python
+     pattern = r"\d+"  # Match one or more digits
+     ```
+
+3. **Search Function:**
+   - Use `re.search()` to find the first occurrence of a pattern in a string.
+   - Example:
+     ```python
+     text = "The price is $25.99."
+     match = re.search(r"\$\d+\.\d{2}", text)
+     ```
+
+4. **Match Function:**
+   - Use `re.match()` to match the pattern at the beginning of a string.
+   - Example:
+     ```python
+     result = re.match(r"He", "Hello, Python!")
+     ```
+
+5. **Findall Function:**
+   - Use `re.findall()` to find all occurrences of a pattern in a string.
+   - Example:
+     ```python
+     numbers = re.findall(r"\d+", "There are 10 apples and 5 oranges.")
+     ```
+
+6. **Compile Function:**
+   - Use `re.compile()` to pre-compile a regex pattern for reuse.
+   - Example:
+     ```python
+     pattern = re.compile(r"\b\w{3}\b")  # Match three-letter words
+     ```
+
+7. **Grouping:**
+   - Use parentheses to group parts of a pattern.
+   - Example:
+     ```python
+     match = re.search(r"(\d+)-(\d+)-(\d+)", "Date: 2023-11-09")
+     ```
+
+8. **Quantifiers:**
+   - Quantifiers specify the number of occurrences of a character or group.
+   - Example:
+     ```python
+     pattern = r"\d{2,4}"  # Match 2 to 4 digits
+     ```
+
+9. **Character Classes:**
+   - Use square brackets to define character classes.
+   - Example:
+     ```python
+     vowels = re.findall(r"[aeiou]", "Hello, Python!")
+     ```
+
+10. **Anchors:**
+    - Anchors specify the position of a match in a string.
+    - Example:
+      ```python
+      result = re.match(r"^Hello", "Hello, Python!")
+      ```
+
+Regular expressions in Python provide a powerful tool for string manipulation, text parsing, and pattern matching. Understanding and using regex can greatly enhance text processing capabilities in Python programs.
+
 # Data Structures
 
 ## Pyhton Lists
