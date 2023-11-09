@@ -267,6 +267,100 @@ These control flow structures enables the creation of dynamic and responsive pro
 
 ## Python Functions
 
+1. **Function Definition:**
+   - Declare a function using the `def` keyword.
+   - Example:
+     ```python
+     def greet(name):
+         print(f"Hello, {name}!")
+     ```
+
+2. **Function Call:**
+   - Call a function by using its name followed by parentheses.
+   - Example:
+     ```python
+     greet("Alice")
+     ```
+
+3. **Parameters and Arguments:**
+   - Functions can take parameters (inputs).
+   - Example:
+     ```python
+     def add_numbers(a, b):
+         return a + b
+     result = add_numbers(3, 5)
+     ```
+
+4. **Default Parameters:**
+   - Assign default values to parameters.
+   - Example:
+     ```python
+     def greet(name, greeting="Hello"):
+         print(f"{greeting}, {name}!")
+     ```
+
+5. **Return Statement:**
+   - Use `return` to send a value back from a function.
+   - Example:
+     ```python
+     def square(num):
+         return num ** 2
+     ```
+
+6. **Multiple Returns:**
+   - Functions can return multiple values.
+   - Example:
+     ```python
+     def calculate(a, b):
+         sum_result = a + b
+         product_result = a * b
+         return sum_result, product_result
+     ```
+
+7. **Lambda Functions:**
+   - Create small, anonymous functions using the `lambda` keyword.
+   - Example:
+     ```python
+     multiply = lambda x, y: x * y
+     ```
+
+8. **Recursion:**
+   - Functions can call themselves.
+   - Example:
+     ```python
+     def factorial(n):
+         if n == 0 or n == 1:
+             return 1
+         else:
+             return n * factorial(n - 1)
+     ```
+
+9. **Global and Local Variables:**
+   - Variables inside a function have local scope by default.
+   - Example:
+     ```python
+     global_var = 10
+
+     def print_vars():
+         local_var = 5
+         print(global_var, local_var)
+     ```
+
+10. **Docstrings:**
+    - Document functions using docstrings for clarity.
+    - Example:
+      ```python
+      def power(base, exponent):
+          """
+          Calculate the power of a number.
+          :param base: Base number
+          :param exponent: Exponent
+          :return: Result of the power operation
+          """
+          return base ** exponent
+      ```
+These aspects of Python functions allows for the creation of modular, reusable, and well-documented code.
+
 ## Introduction to Modules
 
 ## Regular Expressions
