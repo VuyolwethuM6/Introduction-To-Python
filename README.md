@@ -30,28 +30,28 @@ Python finds applications in a wide range of fields, including:
 - **Variables:** Dynamically typed; no need for explicit declarations.
 - **Print Statement:** Use `print()` for console output.
 
-## Data Types
+### Data Types
 
 - **Strings:** Declare with single or double quotes.
 - **Lists:** Ordered, mutable collections in square brackets.
 - **Tuples:** Immutable collections in parentheses.
 - **Dictionaries:** Unordered key-value pairs in curly braces.
 
-## Control Flow
+### Control Flow
 
 - **Conditional Statements:** Use `if`, `elif`, `else`.
 - **Loops:** `for` and `while` loops available.
 
-## Functions
+### Functions
 
 - **Function Definition:** Use `def` keyword.
 - **Parameters:** Passed in parentheses.
 
-## Exception Handling
+### Exception Handling
 
 - Use `try`, `except`, `finally` for error handling.
 
-## Object-Oriented
+### Object-Oriented
 
 - Define classes with `class` keyword.
 - Create objects (instances) from classes.
