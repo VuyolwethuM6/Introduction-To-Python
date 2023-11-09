@@ -1,4 +1,5 @@
 # Introduction-To-Python
+
 Python is a versatile and powerful programming language known for its readability and simplicity. Created by Guido van Rossum and first released in 1991, Python has since become one of the most popular programming languages worldwide. Its ease of learning and extensive libraries make it an excellent choice for beginners and experienced developers alike.
 
 ## Key Features
@@ -23,7 +24,7 @@ Python finds applications in a wide range of fields, including:
 
 - **Artificial Intelligence:** With libraries like TensorFlow and PyTorch, Python is at the forefront of AI and deep learning research.
 
-## Basics
+## Python Syntax - Basics
 
 - **Indentation:** Crucial for defining code blocks.
 - **Variables:** Dynamically typed; no need for explicit declarations.
@@ -54,8 +55,6 @@ Python finds applications in a wide range of fields, including:
 
 - Define classes with `class` keyword.
 - Create objects (instances) from classes.
-
-## Python Syntax
 
 ## Data Types
 
